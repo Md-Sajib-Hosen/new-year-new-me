@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    
+    
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.stylish-word{
+        color: red;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+    padding:0 10px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+nav li:hover{
+    background-color: gray;
+    border-radius: 10px;
+    
+}
+/* Banner part style */
+.banner-container{
+    height: 800px;
+    width: 1600px;
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    border: 5px solid green;
+
+    
+}
+.banner{
+    
+    text-align: center;
+     height: 310px;
+     width: 500px;
+     margin-left: 800px;
+    
+}
+.banner-title{
+    font-size: 50px;
+}
+
+.my-failure{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    width:1200px ;
+}
+
+ul li{
+    display: flex;
+    align-items: center;
+}
+ul li img{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
