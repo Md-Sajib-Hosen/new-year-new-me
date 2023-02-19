@@ -6,7 +6,19 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+.primary-btn{
+    color: #F15B22;
+    border: 0px;
+    background-color: white;
+    border-radius: 3px;
 
+}
+.secondary-btn{
+    color: white;
+    background-color: #F15B22;
+    border: 0;
+    border-radius: 3px;
+}
 
 .stylish-word{
         color: red;
@@ -43,9 +55,13 @@ nav li:hover{
     background-repeat: no-repeat;
     align-items: center;
     display: flex;
-    border: 5px solid green;
+    
 
     
+}
+.iteams img{
+    width: 30px;
+    height: 20px;
 }
 .banner{
     
@@ -74,4 +90,96 @@ ul li img{
     height: 100px;
     width: 100px;
     display: inline-block;
+}
+
+.my-plan{
+
+    margin: 130px 50px 130px 230px;
+    text-align: center;
+    
+    
+}
+ 
+
+.my-plan-iteams img{
+    height: 50px;
+    width: 50px; 
+   
+
+}
+.my-plan-iteams p{
+    text-align: center;
+}
+.my-plan-iteams-container{
+
+    display: flex;
+    margin: 50px 230px 0px 230px;
+
+}
+.my-plan-iteams{
+
+    margin-left: 30px;
+}
+
+.gradient-container{
+    background-image: linear-gradient(to right, #F15B22, #e5dad6 );
+    width: 800px;
+    height: 150px;
+    margin-bottom: 130px;
+    margin-left: 230px;
+    margin-right: 230px;
+    border-radius: 10px;
+}
+.gradient{
+width: 200px;
+margin:30px 20px 0px 30px ;
+
+}
+.gradient h3{
+    color: white;
+}
+.footer-container{
+    background-color: black;
+    height: 300px;
+    color: white;
+    display: flex;
+    gap: 200px;
+    padding: 130px 130px 0px 130px;
+}
+.future-part{
+    width: 300px;
+    height: 300px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+h3{
+    font-weight: 600;
+    font-size: 30px;
+}
+p{
+   
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+button{
+    margin-top: 5px;
+    padding: 4px;
+}
+button:hover{
+    background-color: gray;
+   
+    color: black;
+}
+input{
+    outline: 0;
+    border-radius: 3px;
+    font-size: 20px;
+    color:#F15B22 ;
 }
